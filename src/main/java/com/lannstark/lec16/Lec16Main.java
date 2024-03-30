@@ -6,6 +6,7 @@ public class Lec16Main {
 
     System.out.println("Hello World");
 
+    System.out.println(StringUtilsKt.lastChar("Hello World"));
 
     int number = 100;
 
