@@ -42,7 +42,7 @@ class Person2(
 //            field = value + 1
 //        }
 
-    fun getUppercaseName(): String =this.name.uppercase()
+//    fun getUppercaseName(): String =this.name.uppercase()
 
     val uppercaseName: String
         get() = this.name.uppercase()
