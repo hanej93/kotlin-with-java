@@ -18,9 +18,12 @@ fun main() {
 
 }
 
+typealias FruitFilter = (Fruit) -> Boolean
+
 private fun filterFruits(
     fruits: List<Fruit>,
-    filter: (Fruit) -> Boolean
+//    filter: (Fruit) -> Boolean
+    filter: FruitFilter
 ): List<Fruit> {
     return fruits.filter(filter)
 }
